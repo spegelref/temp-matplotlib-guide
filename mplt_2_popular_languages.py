@@ -7,7 +7,7 @@ from matplotlib import pyplot as plt
 
 plt.style.use('fivethirtyeight')
 
-data = pd.read_csv('data/popular_langauge.csv')
+data = pd.read_csv('data/popular_language.csv')
 lang_responses = data['LanguagesWorkedWith']
 
 language_counter = Counter()
